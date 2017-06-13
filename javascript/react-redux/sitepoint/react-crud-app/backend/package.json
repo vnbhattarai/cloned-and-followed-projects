@@ -22,10 +22,9 @@
     "yarn": ">= 0.18.0"
   },
   "scripts": {
-    "start": "nodemon src/",
+    "start": "node src/",
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
-    "start": "node src/",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
