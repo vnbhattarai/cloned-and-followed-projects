@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router';
 import { SubmissionError } from 'redux-form';
 import { connect } from 'react-redux';
-import { newContact, saveContact } from '../actions/contact-actions';
 import ContactForm from '../components/contact-form';
 import { newContact, saveContact, fetchContact, updateContact } from '../actions/contact-actions';
 
