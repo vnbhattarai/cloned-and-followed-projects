@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "node src/",
+    "prod":"NODE_ENV=production yarn start",
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "mocha": "mocha test/ --recursive"
