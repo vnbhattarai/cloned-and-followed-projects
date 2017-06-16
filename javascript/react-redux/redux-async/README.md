@@ -4,3 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Code copied from: [Async Example](https://github.com/reactjs/redux/tree/master/examples/async)
 
+### Hosted version
+Production version is hosted here: [Reddit async](https://reduxjs-reddit.surge.sh)
+
