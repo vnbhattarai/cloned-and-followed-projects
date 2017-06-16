@@ -22,7 +22,7 @@ yarn start
 
 ### Hosted
 
-Hosted build version here: [React-todo](bashful-addition.surge.sh)
+Hosted build version here: [React-todo](http://bashful-addition.surge.sh)
 
 ### Reference:
 
