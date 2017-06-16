@@ -19,6 +19,11 @@ cd react-todo
 yarn install
 yarn start
 ```
+
+### Hosted
+
+Hosted build version here: [React-todo](bashful-addition.surge.sh)
+
 ### Reference:
 
 [Scotch.io](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react)
