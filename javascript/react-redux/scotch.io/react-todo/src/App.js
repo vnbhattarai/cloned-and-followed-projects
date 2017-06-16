@@ -14,7 +14,7 @@ export default class App extends React.Component {
         this.state = {
             data: []
         };
-        this.apiUrl = process.env.REACT_APP_API_URL;
+        this.apiUrl = "http://58e51d761bd7be12000f9b47.mockapi.io/todo";
     }
     // Lifecycle method
     componentDidMount() {
@@ -40,7 +40,7 @@ export default class App extends React.Component {
     handleRemove(id) {
         // Filter all todos except the one to be removed
         const remainder = this.state.data.filter((todo) => {
-            if (todo.id !== id) 
+            if (todo.id !== id)
                 return todo;
             }
         );
